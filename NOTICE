@@ -1,0 +1,14 @@
+Lumiere Pro
+Copyright 2026 The Lumiere Pro Authors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Third-party software
+--------------------
+Lumiere Pro's installer bundles the Node.js runtime (MIT License, https://nodejs.org) and
+production dependencies installed from npm and crates.io, each under its own license.
+
+FFmpeg/ffprobe is NOT distributed with Lumiere Pro by default. Lumiere Pro runs the
+`ffprobe` executable you install separately. FFmpeg is licensed under the LGPL or GPL
+depending on how it was built (https://ffmpeg.org/legal.html). If you choose to bundle
+an ffprobe binary into your own build, you are responsible for complying with its license.

@@ -1,0 +1,38 @@
+{
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "name": "lumiere-pro",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Local-first video editor that Claude Code can control through MCP",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build:ui": "npm run build -w @lumiere-pro/desktop",
+    "dev:ui": "npm run dev -w @lumiere-pro/desktop",
+    "app": "npm run tauri -w @lumiere-pro/desktop -- dev",
+    "app:build:exe": "npm run tauri -w @lumiere-pro/desktop -- build --no-bundle --config src-tauri/tauri.prod.conf.json",
+    "dev": "concurrently -n host,ui -c blue,green \"npm run dev:host\" \"npm run dev:ui\"",
+    "dev:host": "tsx packages/host/src/main.ts",
+    "build:mcp": "node packages/mcp/build.mjs",
+    "test": "vitest run",
+    "app:build": "npm run tauri -w @lumiere-pro/desktop -- build --config src-tauri/tauri.prod.conf.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "version:check": "node scripts/version.mjs check",
+    "version:set": "node scripts/version.mjs set",
+    "version:bump": "node scripts/version.mjs bump"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0",
+    "typescript": "~5.9.3",
+    "vitest": "^5.0.5",
+    "tsx": "^4.23.15",
+    "@types/node": "^24.0.0",
+    "esbuild": "^0.28.2"
+  },
+  "type": "module"
+}

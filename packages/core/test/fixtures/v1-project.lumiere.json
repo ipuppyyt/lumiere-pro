@@ -1,0 +1,27 @@
+{
+  "formatVersion": 1,
+  "savedWith": "0.1.0",
+  "id": "fixture-project-1",
+  "name": "Golden v1",
+  "revision": 7,
+  "fps": { "num": 30000, "den": 1001 },
+  "nextId": 6,
+  "media": [
+    {
+      "id": "media_1",
+      "path": "C:\\Videos\\interview.mp4",
+      "name": "interview.mp4",
+      "durationSec": 12.5,
+      "width": 1920,
+      "height": 1080,
+      "fps": { "num": 30000, "den": 1001 },
+      "hasVideo": true,
+      "audioStreams": [{ "index": 1, "codec": "aac", "channels": 2, "sampleRate": 48000 }],
+      "durationFrames": 374
+    }
+  ],
+  "clips": [
+    { "id": "clip_2", "mediaId": "media_1", "startFrame": 0, "inFrame": 0, "durationFrames": 120 },
+    { "id": "clip_5", "mediaId": "media_1", "startFrame": 150, "inFrame": 120, "durationFrames": 254 }
+  ]
+}

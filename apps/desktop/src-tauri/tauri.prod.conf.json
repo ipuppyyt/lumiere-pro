@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "build": {
+    "beforeBuildCommand": "node ../../scripts/version.mjs check && npm run build && node ../../scripts/prepare-bundle.mjs"
+  },
+  "app": {
+    "windows": []
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "shortDescription": "Video editor Claude can control through MCP",
+    "resources": {
+      "resources/node": "node",
+      "resources/host": "host",
+      "resources/mcp": "mcp",
+      "resources/ui": "ui",
+      "resources/ffmpeg": "ffmpeg"
+    }
+  }
+}

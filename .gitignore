@@ -1,0 +1,12 @@
+node_modules
+dist
+target
+*.log
+.claude/settings.local.json
+scripts/sample.mp4
+scripts/tauri-dev.log
+apps/desktop/src-tauri/resources
+apps/desktop/src-tauri/gen
+scripts/build-prod*.log
+scripts/release-shot.png
+.claude/
