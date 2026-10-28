@@ -57,7 +57,10 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for how the pieces fit.
 
 ## Commit messages and pull requests
 
-Use short, imperative subject lines ("Add trim validation for neighbouring clips"). Reference issues with `Fixes #123`.
+Start every commit subject with a type prefix, then a short imperative summary: `feat: add trim validation for neighbouring clips`.
+Allowed types: `feat`, `fix`, `patch`, `chore`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `revert`, `release`;
+an optional scope (`fix(host): ...`) and `!` for breaking changes (`feat!: ...`) are fine. The shared Claude Code settings in
+`.claude/` enforce this for commits Claude makes. Reference issues with `Fixes #123`.
 Keep pull requests rebased on `main`; maintainers squash-merge.
 
 ## Licensing of contributions

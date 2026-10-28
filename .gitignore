@@ -9,4 +9,3 @@ apps/desktop/src-tauri/resources
 apps/desktop/src-tauri/gen
 scripts/build-prod*.log
 scripts/release-shot.png
-.claude/
