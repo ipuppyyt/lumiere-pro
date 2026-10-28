@@ -19,7 +19,7 @@ One-time repository settings that cannot live in the repository itself.
 
 ## Dependabot pull requests
 
-Dependabot may propose **major** upgrades that this project deliberately holds back, for example TypeScript 5.9 to 7.x.
+Dependabot may propose **major** upgrades that this project deliberately holds back, for example a new @types/node major that is newer than the Node version the app targets.
 Test them before merging, and close ones that are not ready (Dependabot will stop proposing that version).
 
 ## Cutting a release
