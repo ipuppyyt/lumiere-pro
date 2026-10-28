@@ -8,6 +8,14 @@
   "version": "0.1.0",
   "description": "Local-first video editor that Claude Code can control through MCP",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipuppyyt/lumiere-pro.git"
+  },
+  "homepage": "https://github.com/ipuppyyt/lumiere-pro#readme",
+  "bugs": {
+    "url": "https://github.com/ipuppyyt/lumiere-pro/issues"
+  },
   "engines": {
     "node": ">=20"
   },

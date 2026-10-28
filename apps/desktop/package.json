@@ -2,6 +2,15 @@
   "name": "@lumiere-pro/desktop",
   "version": "0.1.0",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipuppyyt/lumiere-pro.git",
+    "directory": "apps/desktop"
+  },
+  "homepage": "https://github.com/ipuppyyt/lumiere-pro#readme",
+  "bugs": {
+    "url": "https://github.com/ipuppyyt/lumiere-pro/issues"
+  },
   "private": true,
   "type": "module",
   "scripts": {

@@ -17,6 +17,8 @@ By participating you agree to the [Code of Conduct](CODE_OF_CONDUCT.md). Securit
 Full details are in [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md). Short version (Windows 10/11):
 
 ```bash
+git clone https://github.com/ipuppyyt/lumiere-pro.git
+cd lumiere-pro
 npm ci
 npm run build:mcp
 npm run app          # desktop window; or `npm run dev` for browser-only

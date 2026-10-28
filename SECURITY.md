@@ -13,7 +13,7 @@ Lumiere Pro is pre-1.0. Security fixes are made on the latest release only.
 
 **Please do not open a public issue for security problems.**
 
-Use GitHub's private reporting: **Security → Report a vulnerability** on this repository. Include the version
+Use GitHub's private reporting: **[Security → Report a vulnerability](https://github.com/ipuppyyt/lumiere-pro/security/advisories/new)** on this repository. Include the version
 (shown in the app header and `GET /api/version`), your Windows version, steps to reproduce, and the impact you see.
 
 You can expect an acknowledgement within a few days and a status update once the report has been triaged. Fixes are

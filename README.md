@@ -1,5 +1,9 @@
 # Lumiere Pro
 
+[![CI](https://github.com/ipuppyyt/lumiere-pro/actions/workflows/ci.yml/badge.svg)](https://github.com/ipuppyyt/lumiere-pro/actions/workflows/ci.yml)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+[![Latest release](https://img.shields.io/github/v/release/ipuppyyt/lumiere-pro?include_prereleases)](https://github.com/ipuppyyt/lumiere-pro/releases)
+
 A local-first Windows video editor whose timeline Claude Code can edit live through MCP. Every edit, from your
 mouse or from Claude, goes through one command service, so the open window always shows the real project state.
 

@@ -28,5 +28,5 @@ First working release.
 - Live UI updates for every edit, whether made by hand or by Claude.
 - Tauri 2 desktop shell, native file dialogs, standalone Windows installer.
 
-[Unreleased]: #
-[0.1.0]: #
+[Unreleased]: https://github.com/ipuppyyt/lumiere-pro/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/ipuppyyt/lumiere-pro/releases/tag/v0.1.0

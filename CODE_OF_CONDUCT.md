@@ -31,7 +31,7 @@ project in public.
 Maintainers may edit or remove comments, commits, issues and other contributions that violate this code, and may
 temporarily or permanently ban contributors for behavior they judge inappropriate, threatening or harmful.
 
-To report a violation privately, use the repository's **Security → Report a vulnerability** form and title it
+To report a violation privately, use the repository's [**Security → Report a vulnerability**](https://github.com/ipuppyyt/lumiere-pro/security/advisories/new) form and title it
 "Conduct report" (it reaches maintainers only), or contact a maintainer through their GitHub profile. Reports are
 handled confidentially. Maintainers who are the subject of a report are recused from handling it.
 
